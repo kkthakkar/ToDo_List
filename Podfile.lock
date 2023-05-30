@@ -1,0 +1,16 @@
+PODS:
+  - iOSDropDown (0.4.0)
+
+DEPENDENCIES:
+  - iOSDropDown
+
+SPEC REPOS:
+  trunk:
+    - iOSDropDown
+
+SPEC CHECKSUMS:
+  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+
+PODFILE CHECKSUM: c740766671d32b4b4c68206cbbc7b1c644cdd0a2
+
+COCOAPODS: 1.12.0
