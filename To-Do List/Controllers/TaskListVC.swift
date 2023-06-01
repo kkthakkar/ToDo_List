@@ -93,6 +93,7 @@ class TaskListVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
   
         cell.lblTitle.text = toDoItem.title
         cell.lblStatus.isHidden = true
+        cell.lblDeadline.text = toDoItem.deadline
         cell.lblTitle.strikeThrough(toDoItem.isComplete)
         cell.btnCheckMark.isSelected = toDoItem.isComplete
         cell.btnCheckMark.tag = indexPath.row
